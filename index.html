@@ -9,53 +9,569 @@
   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700|Work+Sans:400,700" rel="stylesheet">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/tachyons.min.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="sans-serif">
 
 <!-- Index
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<section class="hero is-main is-fullheight">
-  <div class="hero-head">
-    <div class="container">
-      <div class="tabs is-centered flower">
-        <img src="images/flower.png">
-      </div>
+<article id="index">
+  <div class="vh-100 dt w-100 tc bg-beige ba bw4 b--white flex justify-between flex-column">
+
+    <div class="flower">
+      <img src="images/flower.png">
     </div>
-  </div>
+    <div class="flex items-center flex-column">
+      <h1 class="ttu f3 f1-ns tracked fw7 dark-gray mb3 mt3">Jeena Hah<br/>&amp;<br/>Kevin Chang</h1>
 
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h3 class="nameHeader">
-        Jeena Hah<br/>&amp;<br/>Kevin Chang
-      </h3>
-      <h4 class="infoHeader">
-        Saturday, November 10, 2018<br />11 AM - 4 PM
-      </h4>
+      <blockquote class="ph0 mh0 measure f4 center">
+        <cite class="f6 ttu tracked fs-normal dark-gray">Saturday, November 10, 2018<br />11 AM - 4 PM</cite>
+      </blockquote>
 
-      <br /><br />
-
-      <a href="ourstory.html" class="button clearBtn">
-        <span>More Info</span>
-        <span class="icon is-small">
-          <i class="fas fa-chevron-right"></i>
-        </span>
+      <a href="#our-story" class="f6 no-underline dark-gray bg-animate hover-black inline-flex items-center pa3 mt3 ba br2 border-box">
+        <span class="pr1">More Info</span>
+        <svg class="w1" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
+          <title>chevronRight icon</title>
+          <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
+        </svg>
       </a>
     </div>
-  </div>
 
-  <div class="hero-foot">
-    <div class="container">
-      <div class="tabs is-centered flower reverse">
-        <img src="images/flower.png">
-      </div>
+    <div class="flower reverse">
+      <img src="images/flower.png">
     </div>
+
   </div>
-</section>
+</article>
 <!-- End Index
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- Our Story
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="our-story" class="mw8 center">
+  <div class="pt4 tc">
+    <img src="images/ring.svg">
+  </div>
+  <h1 class="f3 mt2 mb4 tc">Our Story</h1>
+</section>
+
+<section class="mw8 center">
+  <img src="http://tachyons.io/img/over-canvas.jpg" class="w-100 rounded-image shadow">
+</section>
+
+<section class="mw8 center">
+  <article class="cf ph3 ph5-ns pv5">
+    <div class="fn fl-ns w-50-ns pr4-ns">
+      <p class="f5 lh-copy mt0-ns">
+        TYPOGRAPHY, even when poorly executed, can never be taken for granted;
+        nor is it ever accidental. Indeed, beauti- fully typeset pages are always
+        the result of long experience. Now and then they even attain the rank of
+        great artistic achievement. But the art of typesetting stands apart from
+        ex- pressive artwork, because the appeal is not limited to a small
+        circle. It is open to everyone's critical judgment, and nowhere does this
+        judgment carry more weight. Typography that can- not be read by everybody
+        is useless. Even for someone who constantly ponders matters of
+        readability and legibility, it is difficult to determine whether
+        something can be read with ease, but the average reader will rebel at
+        once when the type is too small or otherwise irritates the eye; both are
+        signs of a certain illegibility already.
+      </p>
+    </div>
+    <div class="fn fl-ns w-50-ns">
+      <p class="f5 lh-copy mt0-ns">
+        TYPOGRAPHY, even when poorly executed, can never be taken for granted;
+        nor is it ever accidental. Indeed, beauti- fully typeset pages are always
+        the result of long experience. Now and then they even attain the rank of
+        great artistic achievement. But the art of typesetting stands apart from
+        ex- pressive artwork, because the appeal is not limited to a small
+        circle. It is open to everyone's critical judgment, and nowhere does this
+        judgment carry more weight. Typography that can- not be read by everybody
+        is useless. Even for someone who constantly ponders matters of
+        readability and legibility, it is difficult to determine whether
+        something can be read with ease, but the average reader will rebel at
+        once when the type is too small or otherwise irritates the eye; both are
+        signs of a certain illegibility already.
+      </p>
+    </div>
+  </article>
+</section>
+<!-- End Our Story
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- Bridal Party
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="bg-dark-gray">
+  <section id="bridal-party" class="mw8 center">
+    <div class="pt4 tc">
+      <img src="images/people.svg">
+    </div>
+    <h1 class="f3 mt2 mb4 tc light-gray">Bridal Party</h1>
+  </section>
+
+  <section class="mw8 center">
+    <ul class="cf list pl0 ml0">
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+      <li class="fl w-100 w-50-ns">
+        <div class="pl4 pr4">
+          <article class="pv4 bb b--white-10 ph3 ph0-l">
+            <div class="flex flex-column flex-row-ns">
+              <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
+                <p class="lh-copy measure f6 light-gray">
+                  The tech giant says it is ready to begin planning a quantum
+                  computer, a powerful cpu machine that relies on subatomic particles instead
+                  of transistors.
+                </p>
+              </div>
+              <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+              </div>
+            </div>
+          </article>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+<!-- End Bridal Party
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- Events
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="events" class="mw8 center">
+  <div class="pt4 tc">
+    <img src="images/events.svg">
+  </div>
+  <h1 class="f3 mt2 mb4 tc">Events</h1>
+</section>
+
+<section class="mw7 center">
+  <article class="cf ph3 ph5-ns pv3">
+    <header class="fn fl-ns w-50-ns pr4-ns">
+      <div class="eventlist is-pulled-right">
+        <div class="month">Nov</div>
+        <div class="day">10</div>
+      </div>
+      <h2 class="f3 ttu mid-gray lh-title">
+        CEREMONY &amp; RECEPTION
+      </h2>
+      <p class="f6 gray lh-copy">Saturday, November 10, 2018<br />11 AM - 4 PM</p>
+    </header>
+    <div class="fn fl-ns w-50-ns">
+      <p class="f5 lh-copy mt0-ns">
+        Cooks Chapel<br />
+        440 S Anaheim Blvd<br />
+        Anaheim, CA 92805
+      </p>
+      <p class="f5 mt0 lh-copy"> 
+        Cooks Chapel is accessed through the north entry to the Anaheim Packing House, down the steps to a private entry near the BXCR wine bar.
+      </p>
+      <p class="f5 mt0 lh-copy">
+        $3/per car valet<br />
+        Street parking also available near the Anaheim Packing House
+      </p>
+    </div>
+  </article>
+
+  <article class="cf ph3 ph5-ns pv3">
+    <header class="fn fl-ns w-50-ns pr4-ns">
+      <div class="eventlist is-pulled-right">
+        <div class="month">Nov</div>
+        <div class="day">10</div>
+      </div>
+      <h2 class="f3 ttu mid-gray lh-title">
+        OPTIONAL GROUP HANGOUT
+      </h2>
+      <p class="f6 gray lh-copy">Saturday, November 10, 2018<br />6 PM</p>
+    </header>
+    <div class="fn fl-ns w-50-ns">
+      <p class="f5 lh-copy mt0-ns">
+        TBD
+      </p>
+    </div>
+  </article>
+
+  <article class="cf ph3 ph5-ns pv3">
+    <header class="fn fl-ns w-50-ns pr4-ns">
+      <div class="eventlist is-pulled-right">
+        <div class="month">Nov</div>
+        <div class="day">10</div>
+      </div>
+      <h2 class="f3 ttu mid-gray lh-title">
+        Church Service
+      </h2>
+      <p class="f6 gray lh-copy">Sunday, November 11, 2018<br />11:15 AM</p>
+    </header>
+    <div class="fn fl-ns w-50-ns">
+      <p class="f5 lh-copy mt0-ns">
+        Church of Southland<br />
+        1380 S Sanderson Ave<br />
+        Anaheim, CA 92806
+      </p>
+    </div>
+  </article>
+</section>
+<!-- End Events
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- Travel
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="bg-beige">
+  <section id="travel" class="mw8 center">
+    <div class="pt4 tc">
+      <img src="images/travel.svg">
+    </div>
+    <h1 class="f3 mt2 mb4 tc">Travel</h1>
+  </section>
+
+  <section class="mw7 center">
+    <article class="cf ph3 ph5-ns pv3">
+      <div class="fn fl-ns w-100-ns pr4-ns">
+        <p class="f4 lh-copy mt0-ns">
+          We understand we are asking a lot of our guests to travel a long way to our wedding. (Thank you!) Our hope is that by celebrating in out west, our guests can make a vacation of their stay in the LA/Anaheim area.
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <section class="mw9 center">
+    <article class="cf ph3 ph5-ns pv3">
+      <header class="fn fl-ns w-20-ns pr4-ns">
+        <h2 class="f3 mid-gray lh-title mt0">
+          Flying to California
+        </h2>
+      </header>
+      <div class="fn fl-ns w-40-ns">
+        <div class="mb4 mb0-ns w-100 pr4-ns">
+          <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+        </div>
+        <p class="f6 lh-copy dark-gray fw7 ttu">Los Angeles Airport (LAX)</p>
+        <p class="f5 lh-copy mt0-ns">
+          90 minute drive from Cooks Chapel<br />
+          There are direct flights to BOS to LAX
+        </p>
+      </div>
+      <div class="fn fl-ns w-40-ns">
+        <div class="mb4 mb0-ns w-100 pr4-ns">
+          <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db rounded-image">
+        </div>
+        <p class="f6 lh-copy dark-gray fw7 ttu">Orange County Airport (SNA)</p>
+        <p class="f5 lh-copy mt0-ns">
+          20 minute drive from Cooks Chapel<br />
+          There are one-stop flights from BOS to SNA
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <section class="mw9 center">
+    <article class="cf ph3 ph5-ns pv3">
+      <header class="fn fl-ns w-20-ns pr4-ns">
+        <h2 class="f3 mid-gray lh-title mt0">
+          Accommodation
+        </h2>
+      </header>
+      <div class="fn fl-ns w-40-ns">
+        <p class="f5 lh-copy mt0-ns">
+          Hotel Name<br />
+          Address 1<br />
+          Address 2
+        </p>
+        <a href="#" class="f6 no-underline dark-gray bg-animate hover-black inline-flex items-center pa3 mt0 ba br2 border-box">
+        <span class="pr1">Reserve a room</span>
+        <svg class="w1" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
+          <title>chevronRight icon</title>
+          <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
+        </svg>
+      </a>
+      </div>
+      <div class="fn fl-ns w-40-ns">
+        <p class="f5 lh-copy mt0-ns">
+          We have arranged for a block of rooms to be reserved at this hotel, a short ride from Cooks Chapel.
+          <br /><br />(Approximately $89/night + tax)
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <section class="mw9 center">
+    <article class="cf ph3 ph5-ns pv3">
+      <header class="fn fl-ns w-20-ns pr4-ns">
+        <h2 class="f3 mid-gray lh-title mt0">
+          Attractions
+        </h2>
+      </header>
+      <div class="fn fl-ns w-40-ns">
+        <p class="f6 mt0-ns lh-copy dark-gray fw7 ttu">Things to do</p>
+        <article>
+          <a class="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+            <div class="dtc w3">
+              <img src="http://mrmrs.github.io/images/0010.jpg" class="db w-100"/>
+            </div>
+            <div class="dtc v-top pl2">
+              <h1 class="f6 f5-ns fw6 lh-title black mv0">Thing name</h1>
+              <h2 class="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
+            </div>
+          </a>
+          <a class="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+            <div class="dtc w3">
+              <img src="http://mrmrs.github.io/images/0010.jpg" class="db w-100"/>
+            </div>
+            <div class="dtc v-top pl2">
+              <h1 class="f6 f5-ns fw6 lh-title black mv0">Thing name</h1>
+              <h2 class="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
+            </div>
+          </a>
+          <a class="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+            <div class="dtc w3">
+              <img src="http://mrmrs.github.io/images/0010.jpg" class="db w-100"/>
+            </div>
+            <div class="dtc v-top pl2">
+              <h1 class="f6 f5-ns fw6 lh-title black mv0">Thing name</h1>
+              <h2 class="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="fn fl-ns w-40-ns">
+        <p class="f6 mt0-ns lh-copy dark-gray fw7 ttu">Places to eat</p>
+        <article>
+          <a class="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+            <div class="dtc w3">
+              <img src="http://mrmrs.github.io/images/0010.jpg" class="db w-100"/>
+            </div>
+            <div class="dtc v-top pl2">
+              <h1 class="f6 f5-ns fw6 lh-title black mv0">Grid Systems</h1>
+              <h2 class="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
+            </div>
+          </a>
+          <a class="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+            <div class="dtc w3">
+              <img src="http://mrmrs.github.io/images/0010.jpg" class="db w-100"/>
+            </div>
+            <div class="dtc v-top pl2">
+              <h1 class="f6 f5-ns fw6 lh-title black mv0">Thing name</h1>
+              <h2 class="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
+            </div>
+          </a>
+          <a class="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+            <div class="dtc w3">
+              <img src="http://mrmrs.github.io/images/0010.jpg" class="db w-100"/>
+            </div>
+            <div class="dtc v-top pl2">
+              <h1 class="f6 f5-ns fw6 lh-title black mv0">Thing name</h1>
+              <h2 class="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
+            </div>
+          </a>
+        </article>
+      </div>
+    </article>
+  </section>
+</div>
+<!-- End Travel
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- Registry
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="our-story" class="mw8 center">
+  <div class="pt4 tc">
+    <img src="images/gift.svg">
+  </div>
+  <h1 class="f3 mt2 mb4 tc">Registry</h1>
+</section>
+
+<section class="mw7 center">
+  <article class="cf ph3 ph5-ns pv3">
+    <div class="fn fl-ns w-100-ns pr4-ns">
+      <p class="f4 lh-copy mt0-ns">
+        We know most are traveling from far reaches to join us in California, so coming to our wedding is what we consider the most generous gift. (We mean it! We’d rather you spent an extra day on the West Coast with us than spend on a present.) However, if you absolutely insist on getting something, we’ve set up honeymoon fund.
+      </p>
+    </div>
+  </article>
+</section>
+<!-- End Registry
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 </body>

@@ -1,76 +1,22 @@
-/* Index */
-.hero.is-main {
-  background-color: #F6F4F3;
-  color: #363636;
-  border: 16px solid white;
+/* Colors */
+.bg-beige {
+  background: #F6F4F3;
 }
+
+/* Index */
 .flower img {
-  width: 25%;
-  height: 25%;
+  width: 300px;
   margin: 0 auto;
 }
 .reverse {
   transform: rotate(180deg);
 }
-.nameHeader {
-  font-size: 50px;
-  font-weight: bold;
-  line-height: 1.2;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-family: "Work Sans";
-}
-.infoHeader {
-  margin-top: 16px;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: "Work Sans";
-}
-.button.clearBtn {
-  background-color: transparent;
-}
 @media screen and (min-width: 0px) and (max-width: 400px) {
-  .nameHeader {
-    font-size: 38px;
-  }
   .flower img {
-    width: 50%;
+    width: 60%;
     height: 50%;
   }
 }
-
-
-/* Navigation */
-.navbar {
-  box-shadow: 0px 1px 25px rgba(0,0,0,.1);
-}
-.navbar-item, .navbar-link {
-  font-size: 12px;
-  letter-spacing: 1px;
-  color: #4A4A4A !important;
-  text-transform: uppercase;
-  margin: 0 4px;
-  transition: all 0.2s;
-}
-.logo {
-  position: fixed;
-  background-color: transparent !important;
-  height: 52px !important;
-}
-
-
-/* Bridal Party */
-.bridal-party-names {
-  margin: 10px 0 0 0 !important;
-  padding: 0;
-}
-.bridal-party-titles {
-  text-transform: uppercase;
-  font-size: .8rem !important;
-  padding: 0;
-}
-
 
 /* Events */
 .eventlist {
@@ -98,7 +44,6 @@
   font-size: 26px;
 }
 
-
 /* Helpers */
 .rounded-image {
   border-radius: 4px;
@@ -106,20 +51,4 @@
 }
 .shadow {
   box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
-}
-.image.is-round img {
-  border-radius: 50%;
-}
-.image.is-centered {
-  margin: 0 auto;
-}
-.hero-body.title {
-  padding: 3rem 1.5rem 0 1.5rem;
-}
-.more-padding {
-  padding: 2.25rem !important;
-}
-.icons {
-  width: 40px;
-  margin-bottom: 15px !important;
 }
