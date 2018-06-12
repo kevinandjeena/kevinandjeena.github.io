@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="utf-8">
   <title>Jeena &amp; Kevin</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700|Work+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/tachyons.min.css">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body class="sans-serif">
 
@@ -20,7 +17,7 @@
 <article id="index">
   <div class="vh-100 dt w-100 tc bg-beige ba bw4 b--white flex justify-between flex-column">
 
-    <div class="flower">
+    <div class="flower flex-auto">
       <img src="images/flower.png">
     </div>
     <div class="flex items-center flex-column">
@@ -29,19 +26,18 @@
       <blockquote class="ph0 mh0 measure f4 center">
         <cite class="f6 ttu tracked fs-normal dark-gray">Saturday, November 10, 2018<br />11 AM - 4 PM</cite>
       </blockquote>
-
-      <a href="#our-story" class="f6 no-underline dark-gray bg-animate hover-black inline-flex items-center pa3 mt3 ba br2 border-box">
-        <span class="pr1">More Info</span>
-        <svg class="w1" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
-          <title>chevronRight icon</title>
-          <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
-        </svg>
-      </a>
     </div>
 
-    <div class="flower reverse">
+    <div onclick="changeTitle()" class="flower reverse flex-auto">
       <img src="images/flower.png">
     </div>
+    <nav class="bt tc center">
+    <a class="f6 f5-l link black-80 dim dib pa3 ph4-l" href="#our-story">Our Story</a>
+    <a class="f6 f5-l link black-80 dim dib pa3 ph4-l" href="#bridal-party">Bridal Party</a>
+    <a class="f6 f5-l link black-80 dim dib pa3 ph4-l" href="#events">Events</a>
+    <a class="f6 f5-l link black-80 dim dib pa3 ph4-l" href="#travel">Travel</a>
+    <a class="f6 f5-l link black-80 dim dib pa3 ph4-l" href="#registry">Registry</a>
+  </nav>
 
   </div>
 </article>
@@ -52,7 +48,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <section id="our-story" class="mw8 center">
   <div class="pt4 tc">
-    <img src="images/ring.svg">
+    <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M12,10L8,4.4L9.6,2H14.4L16,4.4L12,10M15.5,6.8L14.3,8.5C16.5,9.4 18,11.5 18,14A6,6 0 0,1 12,20A6,6 0 0,1 6,14C6,11.5 7.5,9.4 9.7,8.5L8.5,6.8C5.8,8.1 4,10.8 4,14A8,8 0 0,0 12,22A8,8 0 0,0 20,14C20,10.8 18.2,8.1 15.5,6.8Z" /></svg>
   </div>
   <h1 class="f3 mt2 mb4 tc">Our Story</h1>
 </section>
@@ -105,7 +101,11 @@
 <div class="bg-dark-gray">
   <section id="bridal-party" class="mw8 center">
     <div class="pt4 tc">
-      <img src="images/people.svg">
+      <?xml version="1.0" encoding="UTF-8"?>
+      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24">
+         <path fill="#F6F4F3" d="M12,6A3,3 0 0,0 9,9A3,3 0 0,0 12,12A3,3 0 0,0 15,9A3,3 0 0,0 12,6M6,8.17A2.5,2.5 0 0,0 3.5,10.67A2.5,2.5 0 0,0 6,13.17C6.88,13.17 7.65,12.71 8.09,12.03C7.42,11.18 7,10.15 7,9C7,8.8 7,8.6 7.04,8.4C6.72,8.25 6.37,8.17 6,8.17M18,8.17C17.63,8.17 17.28,8.25 16.96,8.4C17,8.6 17,8.8 17,9C17,10.15 16.58,11.18 15.91,12.03C16.35,12.71 17.12,13.17 18,13.17A2.5,2.5 0 0,0 20.5,10.67A2.5,2.5 0 0,0 18,8.17M12,14C10,14 6,15 6,17V19H18V17C18,15 14,14 12,14M4.67,14.97C3,15.26 1,16.04 1,17.33V19H4V17C4,16.22 4.29,15.53 4.67,14.97M19.33,14.97C19.71,15.53 20,16.22 20,17V19H23V17.33C23,16.04 21,15.26 19.33,14.97Z" />
+      </svg>
     </div>
     <h1 class="f3 mt2 mb4 tc light-gray">Bridal Party</h1>
   </section>
@@ -117,7 +117,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -137,7 +137,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -157,7 +157,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -177,7 +177,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -197,7 +197,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -217,7 +217,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -237,7 +237,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -257,7 +257,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -277,7 +277,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -297,7 +297,7 @@
           <article class="pv4 bb b--white-10 ph3 ph0-l">
             <div class="flex flex-column flex-row-ns">
               <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-                <h1 class="f3 mt0 mb0 lh-title light-gray">Esther Hah</h1>
+                <h1 class="f3 fw5 mt0 mb0 lh-title light-gray">Esther Hah</h1>
                 <p class="f6 lh-copy silver mv0 ttu">Maid of Honor</p>
                 <p class="lh-copy measure f6 light-gray">
                   The tech giant says it is ready to begin planning a quantum
@@ -322,10 +322,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <section id="events" class="mw8 center">
   <div class="pt4 tc">
-    <img src="images/events.svg">
+    <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1" /></svg>
   </div>
   <h1 class="f3 mt2 mb4 tc">Events</h1>
 </section>
+
+<div class="relative">
+  <div class="absolute top-0 right-0 white">
+    You found an easter egg!
+  </div>
+</div>
 
 <section class="mw7 center">
   <article class="cf ph3 ph5-ns pv3">
@@ -401,7 +407,7 @@
 <div class="bg-beige">
   <section id="travel" class="mw8 center">
     <div class="pt4 tc">
-      <img src="images/travel.svg">
+      <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M2.5,19H21.5V21H2.5V19M22.07,9.64C21.86,8.84 21.03,8.36 20.23,8.58L14.92,10L8,3.57L6.09,4.08L10.23,11.25L5.26,12.58L3.29,11.04L1.84,11.43L3.66,14.59L4.43,15.92L6.03,15.5L11.34,14.07L15.69,12.91L21,11.5C21.81,11.26 22.28,10.44 22.07,9.64Z" /></svg>
     </div>
     <h1 class="f3 mt2 mb4 tc">Travel</h1>
   </section>
@@ -555,9 +561,9 @@
 
 <!-- Registry
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<section id="our-story" class="mw8 center">
+<section id="registry" class="mw8 center">
   <div class="pt4 tc">
-    <img src="images/gift.svg">
+    <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M22,12V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V12A1,1 0 0,1 1,11V8A2,2 0 0,1 3,6H6.17C6.06,5.69 6,5.35 6,5A3,3 0 0,1 9,2C10,2 10.88,2.5 11.43,3.24V3.23L12,4L12.57,3.23V3.24C13.12,2.5 14,2 15,2A3,3 0 0,1 18,5C18,5.35 17.94,5.69 17.83,6H21A2,2 0 0,1 23,8V11A1,1 0 0,1 22,12M4,20H11V12H4V20M20,20V12H13V20H20M9,4A1,1 0 0,0 8,5A1,1 0 0,0 9,6A1,1 0 0,0 10,5A1,1 0 0,0 9,4M15,4A1,1 0 0,0 14,5A1,1 0 0,0 15,6A1,1 0 0,0 16,5A1,1 0 0,0 15,4M3,8V10H11V8H3M13,8V10H21V8H13Z" /></svg>
   </div>
   <h1 class="f3 mt2 mb4 tc">Registry</h1>
 </section>
@@ -574,5 +580,64 @@
 <!-- End Registry
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<!-- Bonus
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="flex items-center justify-center pa4 bg-near-white">
+  <svg class="w2 w1-ns" data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor">
+    <title>info icon</title>
+    <path d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6"></path>
+  </svg>
+  <span class="lh-title ml3">There are <strong>three</strong> easter eggs to be found. First person to email me with screenshots gets a prize.</span>
+</div>
+<!-- End Bonus
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!--
+You found an easter egg!
+
+
+   .===============================================================.
+   |  ,-----------------,                                          |
+   | /| HELP THE BUNNY  |==========.===.   .===.   .===========.   |
+   || |    FIND HIS     |          |   |   |   |   |      .-.  | E |
+   || |  EASTER EGGS!   |  |===|   |   |   |   |   |..==./xxx\ | N |
+   || |_________________|          |   |       |   /<<<<<\    || D |
+   ||/_________________/   .======='   |   .   |   \>>>>>/xxxx/--. |
+   |   |   |           |   |           |   |   |   |`'==''---; * *`\
+   |   |   '==========='   |   |======='   |   |   |   ,===. \* * */
+   |   |                   |               |   |   |   |   |  '--'`|
+   |   '===============|   '===.   |===.   |   |   |==='   '=======|
+   |                           |       |   |   |   |               |
+   |   |===============.   .   '===|   |   |===|   |   .=======.   |
+   |                   |   |           |   |   |   |   |       |   |
+   |   .===========.   |   |   |===.   |   |   |   |   |   |   |   |
+   |   |           |   |   |       |   |   |   |   |   |   |   |   |
+   |   |   .===.   |   |   |===.   '===|   |   '==='   |   |   |   |
+   |   |   |   |   |   |   |   |       |   |           |   |   |   |
+   |   '==='   /`\ '==='   |   '===.   |   '===========|   |   |   |
+   |          / : |                |   |               |   |   |   |
+   | _.._=====| '/ '===|   .======='   '===========.   |   |   |   |
+   /`    \    | /          |                       |   |   |       |
+  |  .-._ '-"` (=======.   |   .===============.   |   |   '===.   |
+  |_/  |/   e  e\==.   |   |   |               |   |   |       |   |
+   | S ||  >   @ )<|   |   |   |   .=======.   |   |   |===.   |   |
+   | T | \  '--`/  |   |   |   |   |       |   |   |   |   |   |   |
+   | A | / '--<`   |   |   |   |   |   |   |   |   '==='   |   '   |
+   | R || ,    \\  |           |   |   |   |   |           |       |
+   | T |; ;     \\__'======.   |   |   '==='   |   .===.   |   |   |
+   |   / /      |.__)==,   |   |   |           |   |   |   |   |   |
+   |  (_/,--.   ; //"""\\  |   |   '==========='   |   '==='   |   |
+   |  { `|   \_/  ||___||  |   |                   |           |   |
+   |   ;-\   / |  |(___)|  |   '===========.   |   '=======.   |   |
+   |   |  | /  |  |XXXXX|  |               |   |           |   |   |
+   |   | /  \  '-,\XXXXX/  |   .==========='   '=======.   |   |   |
+   |   | \__|----' `"""`   |   |                       |   |   |   |
+   |   '==================='   '======================='   '==='   |
+   |                                                               |
+   '==============================================================='
+-->
+
+  <script src="js/scripts.js"></script>
 </body>
 </html>
