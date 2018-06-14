@@ -1,3 +1,3 @@
 function changeTitle() {
-  document.title = 'Easter egg found!';
+  document.title = 'Another secret 🍕 found!';
 }
