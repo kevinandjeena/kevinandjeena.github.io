@@ -55,3 +55,36 @@
 .shadow {
   box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 }
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .2s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more →';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less ←';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  color: #999;
+  font-size: .9em;
+  margin-top: 8px;
+}
